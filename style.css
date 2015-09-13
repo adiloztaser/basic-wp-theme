@@ -122,5 +122,12 @@ a:hover {
     color:#333;
 }
 .single-title {
-	font-size:35px;
+    font-size:35px;
+}
+
+.alignright {
+    float: right;
+}
+.alignleft {
+    float: left;
 }
