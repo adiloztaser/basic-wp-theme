@@ -94,6 +94,11 @@ a:hover {
 	text-align: justify;
 	line-height: 2.0em;
 }
+.post-content ul {
+	list-style-type: inherit;
+	padding: 5px 0 0 30px;
+	font-size: 14px;	
+}
 .read-more {
 	color:#333;
 	font-weight: bold;
