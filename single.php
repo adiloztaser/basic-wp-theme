@@ -7,6 +7,11 @@
 
 <div class="post-title single-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
   <div class="post-content"><?php the_content(); ?></div>
+
+  <?php the_tags( '
+Etiketler: ', ', ', '
+'); ?>
+
 </div>
 
 <?php
