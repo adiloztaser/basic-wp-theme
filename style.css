@@ -5,6 +5,8 @@ Author: Adil
 Author URI: http://oztaser.com
 Description: Simple blog theme.
 */
+
+@import "simplegrid.css";
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -42,8 +44,6 @@ table {
 	border-spacing: 0;
 }
 body {
-  width:920px;
-  margin:auto;
   font-family: 'Open Sans', sans-serif;
   background:#FEFEFE;
 }
@@ -138,14 +138,34 @@ a:hover {
 .text-center {
 	text-align: center;
 }
-img.alignright {float:right; margin:0 0 1em 1em}
-img.alignleft {float:left; margin:0 1em 1em 0}
-img.aligncenter {display: block; margin-left: auto; margin-right: auto}
-a img.alignright {float:right; margin:0 0 1em 1em}
-a img.alignleft {float:left; margin:0 1em 1em 0}
-a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+img.alignright {
+	float:right;
+	margin:0 0 1em 1em;
+}
+img.alignleft {
+	float:left;
+	margin:0 1em 1em 0;
+}
+img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+a img.alignright {
+	float:right;
+	margin:0 0 1em 1em;
+}
+a img.alignleft {
+	float:left;
+	margin:0 1em 1em 0;
+}
+a img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 blockquote {
-padding-left: 50px;
-padding-top: 10px;
-padding-bottom: 10px;
+	padding-left: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
