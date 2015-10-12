@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-	<ul class="breadcrumbs"><li>Kategori: <?php single_cat_title(); ?></li></ul>
+	<ul class="breadcrumbs"><li>Category: <?php single_cat_title(); ?></li></ul>
 	<ul class="post-list">
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<li>

@@ -6,7 +6,7 @@
     <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
   </div>
   <div class="post-content"><?php the_content(); ?></div>
-    <?php the_tags( ' Etiketler: ', ', ', ' '); ?>
+    <?php the_tags( ' Tags: ', ', ', ' '); ?>
   </div>
   <?php
   if ( comments_open() || get_comments_number() ) :

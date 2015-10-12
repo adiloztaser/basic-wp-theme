@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-	<ul class="breadcrumbs"><li>Etiket: <?php single_tag_title(); ?></li></ul>
+	<ul class="breadcrumbs"><li>Tag: <?php single_tag_title(); ?></li></ul>
 	<ul class="post-list">
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<li>
