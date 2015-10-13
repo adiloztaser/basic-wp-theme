@@ -7,7 +7,11 @@
   </div>
   <div class="post-content"><?php the_content(); ?></div>
   <div style="clear:both;"></div>
-  <?php the_tags( ' Tags: ', ', ', ' '); ?>
+  <ul class="post-meta">
+    <li>Tags: <?php the_tags(''); ?></li>
+    <li>Category: <?php the_category(', ') ?></li>
+  </ul>
+
   </div>
   <?php
   if ( comments_open() || get_comments_number() ) :

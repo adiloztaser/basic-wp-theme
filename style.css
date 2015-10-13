@@ -112,24 +112,24 @@ a:hover {
 	padding: 15px;
 }
 .breadcrumbs li {
-    display:inline-block;
-    vertical-align:middle;
-    margin-right:15px;
+  display:inline-block;
+  vertical-align:middle;
+  margin-right:15px;
 }
 .breadcrumbs .separator {
-    font-size:18px;
-    font-weight:100;
-    color:#333;
+  font-size:18px;
+  font-weight:100;
+  color:#333;
 }
 .single-title {
-    font-size:35px;
+  font-size:35px;
 }
 
 .alignright {
-    float: right;
+  float: right;
 }
 .alignleft {
-    float: left;
+  float: left;
 }
 .not-found {
 	text-align: center;
@@ -168,4 +168,18 @@ blockquote {
 	padding-left: 25px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+.post-meta {
+	list-style: outside none none;
+	margin: 10px 0px;
+	overflow: hidden;
+	background-color: #eee;
+	padding: 15px;
+}
+.post-meta li {
+  vertical-align:middle;
+  margin-right:15px;
+}
+.post-meta li a {
+	font-size: 13px;
 }
