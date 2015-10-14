@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" />
   <?php wp_head(); ?>
 </head>
-<body class="site-body">
+<body>
 <div class="grid grid-pad">
   <div class="col-1-1">
     <div class="content">
