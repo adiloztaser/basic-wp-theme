@@ -11,6 +11,8 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,400italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" />
   <?php wp_head(); ?>
+  <script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/jquery.js'></script>
+  <script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/pagination.js'></script>
 </head>
 <body>
 <div class="grid grid-pad">
