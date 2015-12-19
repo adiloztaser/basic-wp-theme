@@ -63,7 +63,7 @@ a:hover {
   padding-left: 20px;
 }
 .post-list {
-  padding:25px 0 25px 0;
+	padding-top: 25px;
 }
 .post-list li:not(:first-child) {
   margin-top:25px;
@@ -179,4 +179,25 @@ blockquote {
 }
 .post-meta li a {
 	font-size: 13px;
+}
+.spinner {
+	display: none;
+}
+.pagination {
+	color: #FFF;
+	background-color: #333;
+	text-shadow: -1px 1px #333;
+	border: medium none;
+	display: inline-block;
+	margin: 20px 10px 0px 0px;
+	padding: 7px 20px;
+	font-size: 13px;
+	font-family: "Bitter",serif;
+	line-height: 1.8;
+	box-shadow: none;
+	border-radius: 2px;
+	cursor: pointer;
+}
+.pagination:hover {
+  background-color: #444;
 }
