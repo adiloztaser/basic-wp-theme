@@ -3,7 +3,7 @@ $(document).ready(function(){
      var pagenumber = 2;
       $(".pagination").click(function(){
         jQuery('.spinner').css("display","block");
-        jQuery('.lazyload').append(jQuery('<ul class="page post-list" id="p' + pagenumber + '">').load('/wp/?paged='+pagenumber+ '/ .page > *', function(responseText, textStatus, XMLHttpReques) {
+        jQuery('.lazyload').append(jQuery('<ul class="page post-list" id="p' + pagenumber + '">').load('/?paged='+pagenumber+ '/ .page > *', function(responseText, textStatus, XMLHttpReques) {
 
            if($("#p"+pagenumber).html().length == 0)
            {

@@ -187,12 +187,33 @@ blockquote {
 	margin: 20px 10px 0px 0px;
 	padding: 7px 20px;
 	font-size: 13px;
-	font-family: "Bitter",serif;
 	line-height: 1.8;
 	box-shadow: none;
 	border-radius: 2px;
 	cursor: pointer;
 }
 .pagination:hover {
+  background-color: #444;
+}
+.category-list {
+  clear: both;
+  margin-left: -4px;
+  padding-top: 9px;
+}
+.category-list a {
+  color: #FFF;
+  background-color: #333;
+  text-shadow: -1px 1px #333;
+  border: medium none;
+  display: inline-block;
+  margin: 20px 10px 0px 0px;
+  padding: 5px 20px;
+  font-size: 17px;
+  line-height: 1.8;
+  box-shadow: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.category-list a:hover {
   background-color: #444;
 }
